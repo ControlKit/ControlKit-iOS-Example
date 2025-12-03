@@ -1,0 +1,16 @@
+PODS:
+  - ForceUpdateKit (0.0.7)
+
+DEPENDENCIES:
+  - ForceUpdateKit (= 0.0.7)
+
+SPEC REPOS:
+  trunk:
+    - ForceUpdateKit
+
+SPEC CHECKSUMS:
+  ForceUpdateKit: bd09e49af7f66263b0202f32c3d2a4c00c2e392d
+
+PODFILE CHECKSUM: b1bf347655ae6402d3dafbea13d8f4f66bee8c4b
+
+COCOAPODS: 1.13.0

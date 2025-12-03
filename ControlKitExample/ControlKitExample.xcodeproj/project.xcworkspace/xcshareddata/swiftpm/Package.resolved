@@ -1,0 +1,78 @@
+{
+  "originHash" : "ad3b602232b75a5a7616585f22c70dbf2c4017ad2f32d674cfa39e3845b79398",
+  "pins" : [
+    {
+      "identity" : "agreementkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ControlKit/AgreementKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "fba4fd47cf1a16e7c04a127ec4d855dccc1c8a4f"
+      }
+    },
+    {
+      "identity" : "contactsupportkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ControlKit/ContactSupportKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a399bdb9d06046450b8a2d82d0e2fdfb38cc8c9f"
+      }
+    },
+    {
+      "identity" : "controlkitbase",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ControlKit/ControlKitBase.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c5fad66b2e08584b4c6c26bf80d49a49367fa47b"
+      }
+    },
+    {
+      "identity" : "forceupdatekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ControlKit/ForceUpdateKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "45ffe504ec84f050b1d3edc90f32cc3811ce9e39"
+      }
+    },
+    {
+      "identity" : "inboxkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ControlKit/InboxKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "374967acaf4139c839922a7f82cc6cb9e4c60931"
+      }
+    },
+    {
+      "identity" : "launchalertkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ControlKit/LaunchAlertKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "adbfa34e770153aea397741fd5f8bfa8536a49d5"
+      }
+    },
+    {
+      "identity" : "netpromoterscorekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ControlKit/NetPromoterScoreKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0d2df4c3a33ed3e77af79635848f577f9311643d"
+      }
+    },
+    {
+      "identity" : "votekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ControlKit/VoteKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7b86f191774c58815edc85ec570631ce610bcd38"
+      }
+    }
+  ],
+  "version" : 3
+}

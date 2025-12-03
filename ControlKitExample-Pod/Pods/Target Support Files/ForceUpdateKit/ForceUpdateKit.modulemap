@@ -1,0 +1,6 @@
+framework module ForceUpdateKit {
+  umbrella header "ForceUpdateKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
