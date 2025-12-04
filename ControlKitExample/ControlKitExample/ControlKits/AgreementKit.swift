@@ -7,7 +7,7 @@
 import UIKit
 import AgreementKit
 import ControlKitBase
-struct Agreement: ControlKitProtocol {
+struct Agreement {
     var title: String = "AgreementKit"
     var icon: String = "AgreementKit"
     var selectedIndex: Int = 0

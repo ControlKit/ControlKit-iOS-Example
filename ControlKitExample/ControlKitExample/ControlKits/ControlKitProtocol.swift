@@ -6,6 +6,7 @@
 //
 import UIKit
 import ControlKitBase
+import SwiftUI
 let PlatformId = "a02a9821-ac71-48cc-b9e4-b8cd971276b4"
 var appId: String {
     return UserDefaults.standard.string(forKey: "AppId") ?? ""
@@ -21,4 +22,11 @@ protocol ControlKitProtocol {
     var selectedIndex: Int { get set }
     var language: CKLanguage { get set }
     func check(root: UIViewController?)
+    func getView() async -> AnyView
+}
+extension ControlKitProtocol {
+    func getView() async -> AnyView {
+        return AnyView(Text(""))
+    }
+    func check(root: UIViewController?) {}
 }

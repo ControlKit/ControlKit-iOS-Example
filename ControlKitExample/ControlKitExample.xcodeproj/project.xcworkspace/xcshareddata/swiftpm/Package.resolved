@@ -1,5 +1,5 @@
 {
-  "originHash" : "ad3b602232b75a5a7616585f22c70dbf2c4017ad2f32d674cfa39e3845b79398",
+  "originHash" : "bc0116ef28295dded6e84e14836efe25f53b0a4a518aa9b75821abca83cc2704",
   "pins" : [
     {
       "identity" : "agreementkit",
@@ -7,7 +7,16 @@
       "location" : "https://github.com/ControlKit/AgreementKit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "fba4fd47cf1a16e7c04a127ec4d855dccc1c8a4f"
+        "revision" : "3c7d3a18a9dee88bb46f537c56e83347d56218af"
+      }
+    },
+    {
+      "identity" : "agreementkit-swiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ControlKit/AgreementKit-SwiftUI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f98465318a0b0727f3131844a4b7a1d1fc341996"
       }
     },
     {
@@ -16,7 +25,7 @@
       "location" : "https://github.com/ControlKit/ContactSupportKit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "a399bdb9d06046450b8a2d82d0e2fdfb38cc8c9f"
+        "revision" : "9ffcd346963cebecdc2a423d18e80b34aad9655a"
       }
     },
     {
@@ -25,7 +34,7 @@
       "location" : "https://github.com/ControlKit/ControlKitBase.git",
       "state" : {
         "branch" : "main",
-        "revision" : "c5fad66b2e08584b4c6c26bf80d49a49367fa47b"
+        "revision" : "88312be492de635debaecf081d9cbb1aa8551788"
       }
     },
     {
@@ -34,7 +43,7 @@
       "location" : "https://github.com/ControlKit/ForceUpdateKit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "45ffe504ec84f050b1d3edc90f32cc3811ce9e39"
+        "revision" : "a8a8003c8c25174c60c930e052a06b863041d045"
       }
     },
     {
@@ -52,7 +61,7 @@
       "location" : "https://github.com/ControlKit/LaunchAlertKit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "adbfa34e770153aea397741fd5f8bfa8536a49d5"
+        "revision" : "491fa7dd8a68735db7262fcbbb6afb9c0e6c4087"
       }
     },
     {

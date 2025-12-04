@@ -10,6 +10,29 @@
 		370E6F892E7EF4D6005D6B9A /* AgreementKit in Frameworks */ = {isa = PBXBuildFile; productRef = 370E6F882E7EF4D6005D6B9A /* AgreementKit */; };
 		370E6F8C2E7EF507005D6B9A /* ContactSupportKit in Frameworks */ = {isa = PBXBuildFile; productRef = 370E6F8B2E7EF507005D6B9A /* ContactSupportKit */; };
 		370E6F8F2E7EF570005D6B9A /* NetPromoterScoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = 370E6F8E2E7EF570005D6B9A /* NetPromoterScoreKit */; };
+		374CB0542EDFB8AA00476133 /* ControlKitProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D927D32E8C8B58003FEE30 /* ControlKitProtocol.swift */; };
+		374CB0552EDFB8AA00476133 /* ForceUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D927D12E8C8B37003FEE30 /* ForceUpdate.swift */; };
+		374CB0562EDFB8AA00476133 /* LaunchAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D927D52E8C8E58003FEE30 /* LaunchAlert.swift */; };
+		374CB0572EDFB8AA00476133 /* InboxViewKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D927D72E8C8FA7003FEE30 /* InboxViewKit.swift */; };
+		374CB0592EDFB8AA00476133 /* NetPromoterScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D927DB2E8C92D1003FEE30 /* NetPromoterScore.swift */; };
+		374CB05A2EDFB8AA00476133 /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D927DF2E8C93A5003FEE30 /* Vote.swift */; };
+		374CB05B2EDFB8AA00476133 /* ContactSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D927DD2E8C9321003FEE30 /* ContactSupport.swift */; };
+		374CB05C2EDFB8AA00476133 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DEFB062E91C0AC0008D3C1 /* UIImage+Extension.swift */; };
+		374CB0642EDFB8AA00476133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F865882AD75C81005C4E04 /* Assets.xcassets */; };
+		374CB0652EDFB8AA00476133 /* ForceUpdateKit in Frameworks */ = {isa = PBXBuildFile; productRef = 37F865B02AD75D77005C4E04 /* ForceUpdateKit */; };
+		374CB0662EDFB8AA00476133 /* LaunchAlertKit in Frameworks */ = {isa = PBXBuildFile; productRef = 375F2A9F2E61C65C00DB0BF4 /* LaunchAlertKit */; };
+		374CB0672EDFB8AA00476133 /* InboxKit in Frameworks */ = {isa = PBXBuildFile; productRef = 375F2AA22E64EF0700DB0BF4 /* InboxKit */; };
+		374CB0692EDFB8AA00476133 /* ContactSupportKit in Frameworks */ = {isa = PBXBuildFile; productRef = 370E6F8B2E7EF507005D6B9A /* ContactSupportKit */; };
+		374CB06A2EDFB8AA00476133 /* NetPromoterScoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = 370E6F8E2E7EF570005D6B9A /* NetPromoterScoreKit */; };
+		374CB06B2EDFB8AA00476133 /* VoteKit in Frameworks */ = {isa = PBXBuildFile; productRef = 37D927C82E8C0822003FEE30 /* VoteKit */; };
+		374CB0752EDFBAFB00476133 /* ControlKitExampleSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374CB06C2EDFBA8D00476133 /* ControlKitExampleSwiftUIApp.swift */; };
+		374CB0762EDFBB1D00476133 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374CB06F2EDFBA8D00476133 /* RootView.swift */; };
+		374CB0772EDFBB2700476133 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374CB06D2EDFBA8D00476133 /* DetailsView.swift */; };
+		374CB0822EDFBF2600476133 /* AgreementKit-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 374CB0812EDFBF2600476133 /* AgreementKit-SwiftUI */; };
+		374CB0882EDFC2EA00476133 /* AgreementKit_SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374CB0862EDFC2EA00476133 /* AgreementKit_SwiftUI.swift */; };
+		374CB0892EDFD22400476133 /* ControlKitExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37F865852AD75C7F005C4E04 /* ControlKitExample.xcdatamodeld */; };
+		374CB08A2EE0E22200476133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F8658A2AD75C81005C4E04 /* LaunchScreen.storyboard */; };
+		374CB08C2EE1DF9E00476133 /* LanguagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374CB08B2EE1DF9800476133 /* LanguagePickerView.swift */; };
 		375F2AA02E61C65C00DB0BF4 /* LaunchAlertKit in Frameworks */ = {isa = PBXBuildFile; productRef = 375F2A9F2E61C65C00DB0BF4 /* LaunchAlertKit */; };
 		375F2AA32E64EF0700DB0BF4 /* InboxKit in Frameworks */ = {isa = PBXBuildFile; productRef = 375F2AA22E64EF0700DB0BF4 /* InboxKit */; };
 		3799EE352EA66DC0008CB42E /* RootViewController+Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799EE342EA66DAD008CB42E /* RootViewController+Languages.swift */; };
@@ -57,6 +80,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		374CB06C2EDFBA8D00476133 /* ControlKitExampleSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlKitExampleSwiftUIApp.swift; sourceTree = "<group>"; };
+		374CB06D2EDFBA8D00476133 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		374CB06F2EDFBA8D00476133 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		374CB0862EDFC2EA00476133 /* AgreementKit_SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementKit_SwiftUI.swift; sourceTree = "<group>"; };
+		374CB08B2EE1DF9800476133 /* LanguagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePickerView.swift; sourceTree = "<group>"; };
 		3799EE342EA66DAD008CB42E /* RootViewController+Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootViewController+Languages.swift"; sourceTree = "<group>"; };
 		3799EE362EA66E35008CB42E /* RootViewController+ChangeAPPID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootViewController+ChangeAPPID.swift"; sourceTree = "<group>"; };
 		37B7F70F2ADBFC120006154D /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +112,7 @@
 		37F8659C2AD75C81005C4E04 /* ControlKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F865A02AD75C81005C4E04 /* ControlKitExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlKitExampleUITests.swift; sourceTree = "<group>"; };
 		37F865A22AD75C81005C4E04 /* ControlKitExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlKitExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37F865B82EDFB680008C7B55 /* ControlKitExampleSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlKitExampleSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +144,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37F865BD2EDFB730008C7B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374CB0822EDFBF2600476133 /* AgreementKit-SwiftUI in Frameworks */,
+				374CB0652EDFB8AA00476133 /* ForceUpdateKit in Frameworks */,
+				374CB0662EDFB8AA00476133 /* LaunchAlertKit in Frameworks */,
+				374CB06A2EDFB8AA00476133 /* NetPromoterScoreKit in Frameworks */,
+				374CB06B2EDFB8AA00476133 /* VoteKit in Frameworks */,
+				374CB0692EDFB8AA00476133 /* ContactSupportKit in Frameworks */,
+				374CB0672EDFB8AA00476133 /* InboxKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		374CB0702EDFBA8D00476133 /* ControlKit-SwiftUI-Example */ = {
+			isa = PBXGroup;
+			children = (
+				374CB08B2EE1DF9800476133 /* LanguagePickerView.swift */,
+				374CB06C2EDFBA8D00476133 /* ControlKitExampleSwiftUIApp.swift */,
+				374CB06D2EDFBA8D00476133 /* DetailsView.swift */,
+				374CB06F2EDFBA8D00476133 /* RootView.swift */,
+			);
+			path = "ControlKit-SwiftUI-Example";
+			sourceTree = "<group>";
+		};
 		37D927CF2E8C89B9003FEE30 /* ControlKits */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +180,7 @@
 				37D927D52E8C8E58003FEE30 /* LaunchAlert.swift */,
 				37D927D72E8C8FA7003FEE30 /* InboxViewKit.swift */,
 				37D927D92E8C9086003FEE30 /* AgreementKit.swift */,
+				374CB0862EDFC2EA00476133 /* AgreementKit_SwiftUI.swift */,
 				37D927DB2E8C92D1003FEE30 /* NetPromoterScore.swift */,
 				37D927DF2E8C93A5003FEE30 /* Vote.swift */,
 				37D927DD2E8C9321003FEE30 /* ContactSupport.swift */,
@@ -163,6 +218,7 @@
 				37F865792AD75C7F005C4E04 /* ControlKitExample.app */,
 				37F865922AD75C81005C4E04 /* ControlKitExampleTests.xctest */,
 				37F8659C2AD75C81005C4E04 /* ControlKitExampleUITests.xctest */,
+				37F865B82EDFB680008C7B55 /* ControlKitExampleSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,6 +226,7 @@
 		37F8657B2AD75C7F005C4E04 /* ControlKitExample */ = {
 			isa = PBXGroup;
 			children = (
+				374CB0702EDFBA8D00476133 /* ControlKit-SwiftUI-Example */,
 				37D927D02E8C89D0003FEE30 /* Views */,
 				37D927CF2E8C89B9003FEE30 /* ControlKits */,
 				37F8657C2AD75C7F005C4E04 /* AppDelegate.swift */,
@@ -264,6 +321,32 @@
 			productReference = 37F8659C2AD75C81005C4E04 /* ControlKitExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		37F865BA2EDFB700008C7B55 /* ControlKitExampleSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F865BB2EDFB710008C7B55 /* Build configuration list for PBXNativeTarget "ControlKitExampleSwiftUI" */;
+			buildPhases = (
+				37F865BC2EDFB720008C7B55 /* Sources */,
+				37F865BD2EDFB730008C7B55 /* Frameworks */,
+				37F865BE2EDFB740008C7B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControlKitExampleSwiftUI;
+			packageProductDependencies = (
+				37F865B02AD75D77005C4E04 /* ForceUpdateKit */,
+				375F2A9F2E61C65C00DB0BF4 /* LaunchAlertKit */,
+				375F2AA22E64EF0700DB0BF4 /* InboxKit */,
+				370E6F8B2E7EF507005D6B9A /* ContactSupportKit */,
+				370E6F8E2E7EF570005D6B9A /* NetPromoterScoreKit */,
+				37D927C82E8C0822003FEE30 /* VoteKit */,
+				374CB0812EDFBF2600476133 /* AgreementKit-SwiftUI */,
+			);
+			productName = ControlKitExampleSwiftUI;
+			productReference = 37F865B82EDFB680008C7B55 /* ControlKitExampleSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -285,6 +368,9 @@
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = 37F865782AD75C7F005C4E04;
 					};
+					37F865BA2EDFB700008C7B55 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 				};
 			};
 			buildConfigurationList = 37F865742AD75C7F005C4E04 /* Build configuration list for PBXProject "ControlKitExample" */;
@@ -304,6 +390,7 @@
 				370E6F8A2E7EF507005D6B9A /* XCRemoteSwiftPackageReference "ContactSupportKit" */,
 				370E6F8D2E7EF570005D6B9A /* XCRemoteSwiftPackageReference "NetPromoterScoreKit" */,
 				37D927C72E8C0822003FEE30 /* XCRemoteSwiftPackageReference "VoteKit" */,
+				374CB0802EDFBF2600476133 /* XCRemoteSwiftPackageReference "AgreementKit-SwiftUI" */,
 			);
 			productRefGroup = 37F8657A2AD75C7F005C4E04 /* Products */;
 			projectDirPath = "";
@@ -312,6 +399,7 @@
 				37F865782AD75C7F005C4E04 /* ControlKitExample */,
 				37F865912AD75C81005C4E04 /* ControlKitExampleTests */,
 				37F8659B2AD75C81005C4E04 /* ControlKitExampleUITests */,
+				37F865BA2EDFB700008C7B55 /* ControlKitExampleSwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -339,6 +427,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F865BE2EDFB740008C7B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374CB0642EDFB8AA00476133 /* Assets.xcassets in Resources */,
+				374CB08A2EE0E22200476133 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +479,27 @@
 			files = (
 				37F865A12AD75C81005C4E04 /* ControlKitExampleUITests.swift in Sources */,
 				37F865A32AD75C81005C4E04 /* ControlKitExampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F865BC2EDFB720008C7B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374CB0542EDFB8AA00476133 /* ControlKitProtocol.swift in Sources */,
+				374CB0552EDFB8AA00476133 /* ForceUpdate.swift in Sources */,
+				374CB0562EDFB8AA00476133 /* LaunchAlert.swift in Sources */,
+				374CB0572EDFB8AA00476133 /* InboxViewKit.swift in Sources */,
+				374CB0882EDFC2EA00476133 /* AgreementKit_SwiftUI.swift in Sources */,
+				374CB0772EDFBB2700476133 /* DetailsView.swift in Sources */,
+				374CB0752EDFBAFB00476133 /* ControlKitExampleSwiftUIApp.swift in Sources */,
+				374CB0592EDFB8AA00476133 /* NetPromoterScore.swift in Sources */,
+				374CB05A2EDFB8AA00476133 /* Vote.swift in Sources */,
+				374CB05B2EDFB8AA00476133 /* ContactSupport.swift in Sources */,
+				374CB05C2EDFB8AA00476133 /* UIImage+Extension.swift in Sources */,
+				374CB0762EDFBB1D00476133 /* RootView.swift in Sources */,
+				374CB08C2EE1DF9E00476133 /* LanguagePickerView.swift in Sources */,
+				374CB0892EDFD22400476133 /* ControlKitExample.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,6 +771,58 @@
 			};
 			name = Release;
 		};
+		37F865BF2EDFB750008C7B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ControlKitExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.controlkit.test.ControlKitExampleSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37F865C02EDFB760008C7B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ControlKitExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.controlkit.test.ControlKitExampleSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -692,6 +862,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		37F865BB2EDFB710008C7B55 /* Build configuration list for PBXNativeTarget "ControlKitExampleSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F865BF2EDFB750008C7B55 /* Debug */,
+				37F865C02EDFB760008C7B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -714,6 +893,14 @@
 		370E6F8D2E7EF570005D6B9A /* XCRemoteSwiftPackageReference "NetPromoterScoreKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ControlKit/NetPromoterScoreKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		374CB0802EDFBF2600476133 /* XCRemoteSwiftPackageReference "AgreementKit-SwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ControlKit/AgreementKit-SwiftUI.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -768,6 +955,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 370E6F8D2E7EF570005D6B9A /* XCRemoteSwiftPackageReference "NetPromoterScoreKit" */;
 			productName = NetPromoterScoreKit;
+		};
+		374CB0812EDFBF2600476133 /* AgreementKit-SwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 374CB0802EDFBF2600476133 /* XCRemoteSwiftPackageReference "AgreementKit-SwiftUI" */;
+			productName = "AgreementKit-SwiftUI";
 		};
 		375F2A9F2E61C65C00DB0BF4 /* LaunchAlertKit */ = {
 			isa = XCSwiftPackageProductDependency;
