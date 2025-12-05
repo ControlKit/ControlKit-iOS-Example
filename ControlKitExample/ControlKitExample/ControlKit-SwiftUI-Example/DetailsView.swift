@@ -18,9 +18,11 @@ import ControlKitBase
 struct DetailsView: View {
     let item: ControlKitProtocol
     @State private var items: [String] = []
-    @State private var styleName: String = ""
+    @State private var selectedStyleName: String = ""
     @Environment(\.presentationMode) var presentationMode
     @State private var showingSheet = false
+    @State private var sheetContent: AnyView = AnyView(Text(""))
+    @State private var isLoading = false
     
     init(item: ControlKitProtocol) {
         self.item = item
@@ -47,8 +49,9 @@ struct DetailsView: View {
                 List {
                     ForEach(items, id: \.self) { styleName in
                         Button(action: {
-                            showingSheet = true
-                            self.styleName = styleName
+                            Task {
+                                await loadStyleView(styleName: styleName)
+                            }
                         }) {
                             HStack {
                                 if let image = UIImage(named: item.icon) {
@@ -61,11 +64,12 @@ struct DetailsView: View {
                                 Spacer()
                             }
                         }
+                        .disabled(isLoading)
                     }
                 }
                 .listStyle(PlainListStyle())
-                .sheet(isPresented: $showingSheet) {
-                    handleStyleSelection(styleName: styleName)
+                .fullScreenCover(isPresented: $showingSheet) {
+                    sheetContent
                 }
             }
         }
@@ -75,7 +79,12 @@ struct DetailsView: View {
         }
     }
     
-    private func handleStyleSelection(styleName: String) -> AnyView {
+    private func loadStyleView(styleName: String) async {
+        guard !isLoading else { return }
+        
+        isLoading = true
+        selectedStyleName = styleName
+        
         if let index = item.styles.firstIndex(where: { $0.key == styleName }) {
             let idx = item.styles.distance(from: item.styles.startIndex, to: index)
             
@@ -109,21 +118,29 @@ struct DetailsView: View {
                 newItem.selectedIndex = idx
                 mutableItem = newItem
             case "VoteKit":
-                var newItem = Vote()
+                var newItem = Vote_SwiftUI()
                 newItem.selectedIndex = idx
                 mutableItem = newItem
             default:
-                return AnyView(Text(""))
+                sheetContent = AnyView(Text("Unknown item type"))
+                isLoading = false
+                showingSheet = true
+                return
             }
-            Task {
-              return await mutableItem.getView()
-            }
+            
+            let view = await mutableItem.getView()
+            sheetContent = view
+            isLoading = false
+            showingSheet = true
+        } else {
+            sheetContent = AnyView(Text("Style not found"))
+            isLoading = false
+            showingSheet = true
         }
-        return AnyView(Text(""))
     }
 }
 
 #Preview {
-    DetailsView(item: Agreement_SwiftUI())
+    DetailsView(item: Vote_SwiftUI())
 }
 

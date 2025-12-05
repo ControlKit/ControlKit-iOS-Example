@@ -1,5 +1,5 @@
 {
-  "originHash" : "bc0116ef28295dded6e84e14836efe25f53b0a4a518aa9b75821abca83cc2704",
+  "originHash" : "a340e5fc58c3e56731f835d76051ae34da1583d2e611b284afc9d10d5ebfb103",
   "pins" : [
     {
       "identity" : "agreementkit",
@@ -80,6 +80,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "7b86f191774c58815edc85ec570631ce610bcd38"
+      }
+    },
+    {
+      "identity" : "votekit-swiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ControlKit/VoteKit-SwiftUI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "418876f15954eb7132af6407a5bfd1c78e5fb954"
       }
     }
   ],

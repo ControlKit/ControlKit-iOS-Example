@@ -7,7 +7,7 @@
 import UIKit
 import ControlKitBase
 import SwiftUI
-let PlatformId = "a02a9821-ac71-48cc-b9e4-b8cd971276b4"
+let PlatformId = "a083f315-ce4b-4670-b2ac-542abf14e8f3"
 var appId: String {
     return UserDefaults.standard.string(forKey: "AppId") ?? ""
 }

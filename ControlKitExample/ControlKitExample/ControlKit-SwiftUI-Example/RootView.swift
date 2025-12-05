@@ -21,7 +21,7 @@ struct RootView: View {
         Agreement_SwiftUI(),
         ContactSupport(),
         NetPromoterScore(),
-        Vote()
+        Vote_SwiftUI()
     ]
     
     let languages: [(flag: String, name: String, code: String)] = [
