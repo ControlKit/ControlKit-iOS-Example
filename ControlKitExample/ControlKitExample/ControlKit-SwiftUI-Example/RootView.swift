@@ -20,7 +20,7 @@ struct RootView: View {
         InboxViewKit(),
         Agreement_SwiftUI(),
         ContactSupport(),
-        NetPromoterScore(),
+        NetPromoterScore_SwiftUI(),
         Vote_SwiftUI()
     ]
     

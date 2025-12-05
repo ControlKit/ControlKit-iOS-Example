@@ -1,5 +1,5 @@
 {
-  "originHash" : "a340e5fc58c3e56731f835d76051ae34da1583d2e611b284afc9d10d5ebfb103",
+  "originHash" : "faa0c2ced54a72d79bbc7a9a101c6e8a09e9fce4308cb7335b54671ebf1b41ee",
   "pins" : [
     {
       "identity" : "agreementkit",
@@ -74,6 +74,15 @@
       }
     },
     {
+      "identity" : "netpromoterscorekit-swiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ControlKit/NetPromoterScoreKit-SwiftUI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8e7362cd3eb26fd5250c94476e46b45911ea072c"
+      }
+    },
+    {
       "identity" : "votekit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ControlKit/VoteKit.git",
@@ -88,7 +97,7 @@
       "location" : "https://github.com/ControlKit/VoteKit-SwiftUI.git",
       "state" : {
         "branch" : "main",
-        "revision" : "418876f15954eb7132af6407a5bfd1c78e5fb954"
+        "revision" : "529bd469386a53040f3f44afe60fff5e575a475b"
       }
     }
   ],
