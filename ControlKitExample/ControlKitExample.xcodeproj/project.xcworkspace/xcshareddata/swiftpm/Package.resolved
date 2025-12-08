@@ -1,5 +1,5 @@
 {
-  "originHash" : "faa0c2ced54a72d79bbc7a9a101c6e8a09e9fce4308cb7335b54671ebf1b41ee",
+  "originHash" : "ea4a71661e92ae21077f5d829931cede295d7cd5251125910582daa3f9c16f20",
   "pins" : [
     {
       "identity" : "agreementkit",
@@ -16,7 +16,7 @@
       "location" : "https://github.com/ControlKit/AgreementKit-SwiftUI.git",
       "state" : {
         "branch" : "main",
-        "revision" : "f98465318a0b0727f3131844a4b7a1d1fc341996"
+        "revision" : "18920d2c978ae1a3cc6bde6a5ec2e5eac60a1633"
       }
     },
     {
@@ -26,6 +26,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "9ffcd346963cebecdc2a423d18e80b34aad9655a"
+      }
+    },
+    {
+      "identity" : "contactsupportkit-swiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ControlKit/ContactSupportKit-SwiftUI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "73e8c052c3634c116af287b071ec5558c43d3736"
       }
     },
     {

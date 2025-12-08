@@ -11,7 +11,7 @@ import LaunchAlertKit
 import InboxKit
 import NetPromoterScoreKit_SwiftUI
 import AgreementKit_SwiftUI
-import ContactSupportKit
+import ContactSupportKit_SwiftUI
 import VoteKit
 import ControlKitBase
 
@@ -110,7 +110,7 @@ struct DetailsView: View {
                 newItem.selectedIndex = idx
                 mutableItem = newItem
             case "ContactSupportKit":
-                var newItem = ContactSupport()
+                var newItem = ContactSupport_SwiftUI()
                 newItem.selectedIndex = idx
                 mutableItem = newItem
             case "NetPromoterScoreKit":

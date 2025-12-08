@@ -19,7 +19,7 @@ struct RootView: View {
         LaunchAlert(),
         InboxViewKit(),
         Agreement_SwiftUI(),
-        ContactSupport(),
+        ContactSupport_SwiftUI(),
         NetPromoterScore_SwiftUI(),
         Vote_SwiftUI()
     ]
@@ -119,8 +119,8 @@ struct RootView: View {
     
     private func clearAllData() {
         UserDefaults.standard.removeObject(forKey: "latestLaunchAlertResponseId")
-        UserDefaults.standard.removeObject(forKey: "CK_Vote_Name_\(Vote().name ?? "")")
-        UserDefaults.standard.removeObject(forKey: "CK_NPS_Name_\(NetPromoterScore().name ?? "")")
+        UserDefaults.standard.removeObject(forKey: "CK_Vote_Name_\(Vote_SwiftUI().name ?? "")")
+        UserDefaults.standard.removeObject(forKey: "CK_NPS_Name_\(NetPromoterScore_SwiftUI().name ?? "")")
     }
 }
 
