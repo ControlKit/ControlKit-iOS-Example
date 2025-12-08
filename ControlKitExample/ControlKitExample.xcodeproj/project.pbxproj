@@ -115,6 +115,7 @@
 		37F865882AD75C81005C4E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37F8658B2AD75C81005C4E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37F8658D2AD75C81005C4E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37F8658E2AD75C81005C4E05 /* Info-SwiftUI.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-SwiftUI.plist"; sourceTree = "<group>"; };
 		37F865922AD75C81005C4E04 /* ControlKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F865962AD75C81005C4E04 /* ControlKitExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlKitExampleTests.swift; sourceTree = "<group>"; };
 		37F8659C2AD75C81005C4E04 /* ControlKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -246,6 +247,7 @@
 				37F865882AD75C81005C4E04 /* Assets.xcassets */,
 				37F8658A2AD75C81005C4E04 /* LaunchScreen.storyboard */,
 				37F8658D2AD75C81005C4E04 /* Info.plist */,
+				37F8658E2AD75C81005C4E05 /* Info-SwiftUI.plist */,
 				37F865852AD75C7F005C4E04 /* ControlKitExample.xcdatamodeld */,
 			);
 			path = ControlKitExample;
@@ -799,7 +801,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ControlKitExample/Info.plist;
+				INFOPLIST_FILE = ControlKitExample/Info-SwiftUI.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -825,7 +827,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ControlKitExample/Info.plist;
+				INFOPLIST_FILE = ControlKitExample/Info-SwiftUI.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
