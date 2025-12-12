@@ -13,8 +13,8 @@ struct Agreement_SwiftUI: ControlKitProtocol {
     var icon: String = "AgreementKit"
     var selectedIndex: Int = 0
     var styles: [String: Any] = [
-        "lightMode" : AgreementViewStyle.lightMode,
-        "darkMode" : AgreementViewStyle.darkMode
+        "darkMode" : AgreementViewStyle.darkMode,
+        "lightMode" : AgreementViewStyle.lightMode
     ]
     var serviceConfigs: [Any]?
     var viewConfigs: [Any]?
@@ -22,10 +22,22 @@ struct Agreement_SwiftUI: ControlKitProtocol {
     var name: String? = "Privacy Policy"
     var language: CKLanguage = CKLanguage(rawValue: getLanguage()) ?? .english
     func getView() async -> AnyView {
-        let index = styles.index(styles.startIndex, offsetBy: selectedIndex)
-        let style = styles.values[index]
+        // Use sorted keys to get the correct style in order
+        let sortedKeys = styles.keys.sorted()
+        guard selectedIndex < sortedKeys.count else {
+            let serviceConfig = AgreementServiceConfig(
+                style: .darkMode,
+                name: name ?? "",
+                appId: appId,
+                language: CKLanguage(rawValue: getLanguage()) ?? .english
+            )
+            let view = await AgreementKit().configure(config: serviceConfig)
+            return AnyView(view)
+        }
+        let key = sortedKeys[selectedIndex]
+        let style = styles[key] as? AgreementViewStyle ?? .darkMode
         let serviceConfig = AgreementServiceConfig(
-            style: style as? AgreementViewStyle ?? .darkMode,
+            style: style,
             name: name ?? "",
             appId: appId,
             language: CKLanguage(rawValue: getLanguage()) ?? .english

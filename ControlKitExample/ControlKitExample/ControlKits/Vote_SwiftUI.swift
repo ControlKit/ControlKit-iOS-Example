@@ -26,10 +26,21 @@ struct Vote_SwiftUI: ControlKitProtocol {
     var language: CKLanguage = CKLanguage(rawValue: getLanguage()) ?? .english
     
     func getView() async -> AnyView {
-        let index = styles.index(styles.startIndex, offsetBy: selectedIndex)
-        let style = styles.values[index]
+        // Use sorted keys to get the correct style in order
+        let sortedKeys = styles.keys.sorted()
+        guard selectedIndex < sortedKeys.count else {
+            let serviceConfig = VoteServiceConfig(
+                style: .popover1,
+                appId: appId,
+                name: name ?? "",
+                language: CKLanguage(rawValue: getLanguage()) ?? .english
+            )
+            return await AnyView(VoteKit().configure(config: serviceConfig))
+        }
+        let key = sortedKeys[selectedIndex]
+        let style = styles[key] as? VoteViewStyle ?? .popover1
         let serviceConfig = VoteServiceConfig(
-            style: style as? VoteViewStyle ?? .popover1,
+            style: style,
             appId: appId,
             name: name ?? "",
             language: CKLanguage(rawValue: getLanguage()) ?? .english

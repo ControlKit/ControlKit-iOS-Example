@@ -28,10 +28,20 @@ struct ContactSupport: ControlKitProtocol {
             guard let vc = root else {
                 return
             }
-            let index = styles.index(styles.startIndex, offsetBy: selectedIndex)
-            let style = styles.values[index]
+            // Use sorted keys to get the correct style in order
+            let sortedKeys = styles.keys.sorted()
+            guard selectedIndex < sortedKeys.count else {
+                let serviceConfig = ContactSupportServiceConfig(
+                    style: .style1,
+                    appId: appId
+                )
+                await ContactSupportKit().configure(root: vc, config: serviceConfig)
+                return
+            }
+            let key = sortedKeys[selectedIndex]
+            let style = styles[key] as? ContactSupportViewStyle ?? .style1
             let serviceConfig = ContactSupportServiceConfig(
-                style: style as? ContactSupportViewStyle ?? .style1,
+                style: style,
                 appId: appId
             )
             await ContactSupportKit().configure(root: vc, config: serviceConfig)

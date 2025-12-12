@@ -52,10 +52,8 @@ class DetailsViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        if let index = item?.styles.firstIndex(where: { $0.key == items[indexPath.row] }) {
-            let idx = item!.styles.distance(from: item!.styles.startIndex, to: index)
-            item?.selectedIndex = idx
-            item?.check(root: self.navigationController)
-        }
+        // Use the index from the sorted array directly
+        item?.selectedIndex = indexPath.row
+        item?.check(root: self.navigationController)
     }
 }

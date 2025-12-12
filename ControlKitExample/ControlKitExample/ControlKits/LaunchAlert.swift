@@ -30,10 +30,21 @@ struct LaunchAlert: ControlKitProtocol {
             guard let vc = root else {
                 return
             }
-            let index = styles.index(styles.startIndex, offsetBy: selectedIndex)
-            let style = styles.values[index]
+            // Use sorted keys to get the correct style in order
+            let sortedKeys = styles.keys.sorted()
+            guard selectedIndex < sortedKeys.count else {
+                let serviceConfig = AlertServiceConfig(
+                    style: .fullscreen1,
+                    appId: appId,
+                    language: CKLanguage(rawValue: getLanguage()) ?? .english
+                )
+                await LaunchAlertKit().configure(root: vc, config: serviceConfig)
+                return
+            }
+            let key = sortedKeys[selectedIndex]
+            let style = styles[key] as? LaunchAlertViewStyle ?? .fullscreen1
             let serviceConfig = AlertServiceConfig(
-                style: style as? LaunchAlertViewStyle ?? .fullscreen1,
+                style: style,
                 appId: appId,
                 language: CKLanguage(rawValue: getLanguage()) ?? .english
             )

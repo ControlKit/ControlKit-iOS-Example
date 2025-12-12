@@ -28,10 +28,21 @@ struct ForceUpdate: ControlKitProtocol {
     
     func check(root: UIViewController?) {
         Task {
-            let index = styles.index(styles.startIndex, offsetBy: selectedIndex)
-            let style = styles.values[index]
+            // Use sorted keys to get the correct style in order
+            let sortedKeys = styles.keys.sorted()
+            guard selectedIndex < sortedKeys.count else {
+                let service = UpdateServiceConfig(
+                    style: .fullscreen1,
+                    appId: appId,
+                    language: CKLanguage(rawValue: getLanguage()) ?? .english
+                )
+                await ForceUpdateKit().configure(config: service)
+                return
+            }
+            let key = sortedKeys[selectedIndex]
+            let style = styles[key] as? ForceUpdateViewStyle ?? .fullscreen1
             let service = UpdateServiceConfig(
-                style: style as? ForceUpdateViewStyle ?? .fullscreen1,
+                style: style,
                 appId: appId,
                 language: CKLanguage(rawValue: getLanguage()) ?? .english
             )

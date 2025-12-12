@@ -12,8 +12,8 @@ struct InboxViewKit: ControlKitProtocol {
     var icon: String = "InboxKit"
     var selectedIndex: Int = 0
     var styles: [String: Any] = [
-        "lightMode" : InboxViewStyle.lightMode,
-        "darkMode" : InboxViewStyle.darkMode
+        "darkMode" : InboxViewStyle.darkMode,
+        "lightMode" : InboxViewStyle.lightMode
     ]
     var serviceConfigs: [Any]?
     var viewConfigs: [Any]?
@@ -26,10 +26,21 @@ struct InboxViewKit: ControlKitProtocol {
             guard let vc = root else {
                 return
             }
-            let index = styles.index(styles.startIndex, offsetBy: selectedIndex)
-            let style = styles.values[index]
+            // Use sorted keys to get the correct style in order
+            let sortedKeys = styles.keys.sorted()
+            guard selectedIndex < sortedKeys.count else {
+                let serviceConfig = InboxServiceConfig(
+                    style: .darkMode,
+                    appId: appId,
+                    language: CKLanguage(rawValue: getLanguage()) ?? .english
+                )
+                await InboxKit().configure(root: vc, config: serviceConfig)
+                return
+            }
+            let key = sortedKeys[selectedIndex]
+            let style = styles[key] as? InboxViewStyle ?? .darkMode
             let serviceConfig = InboxServiceConfig(
-                style: style as? InboxViewStyle ?? .darkMode,
+                style: style,
                 appId: appId,
                 language: CKLanguage(rawValue: getLanguage()) ?? .english
             )

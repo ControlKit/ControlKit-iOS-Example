@@ -85,8 +85,8 @@ struct DetailsView: View {
         isLoading = true
         selectedStyleName = styleName
         
-        if let index = item.styles.firstIndex(where: { $0.key == styleName }) {
-            let idx = item.styles.distance(from: item.styles.startIndex, to: index)
+        // Find index in the sorted array instead of dictionary
+        if let idx = items.firstIndex(of: styleName) {
             
             // Create a mutable copy based on the item type
             var mutableItem: ControlKitProtocol
@@ -141,6 +141,7 @@ struct DetailsView: View {
 }
 
 #Preview {
-    DetailsView(item: Vote_SwiftUI())
+//    DetailsView(item: Vote_SwiftUI())
+    DetailsView(item: ContactSupport_SwiftUI())
 }
 

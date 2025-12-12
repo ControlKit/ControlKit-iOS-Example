@@ -12,8 +12,8 @@ struct Agreement {
     var icon: String = "AgreementKit"
     var selectedIndex: Int = 0
     var styles: [String: Any] = [
-        "lightMode" : AgreementViewStyle.lightMode,
-        "darkMode" : AgreementViewStyle.darkMode
+        "darkMode" : AgreementViewStyle.darkMode,
+        "lightMode" : AgreementViewStyle.lightMode
     ]
     var serviceConfigs: [Any]?
     var viewConfigs: [Any]?

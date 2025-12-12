@@ -22,8 +22,20 @@ struct NetPromoterScore_SwiftUI: ControlKitProtocol {
     var language: CKLanguage = CKLanguage(rawValue: getLanguage()) ?? .english
     
     func getView() async -> AnyView {
-        let index = styles.index(styles.startIndex, offsetBy: selectedIndex)
-        let style = styles.values[index] as! NetPromoterScoreViewStyle
+        // Use sorted keys to get the correct style in order
+        let sortedKeys = styles.keys.sorted()
+        guard selectedIndex < sortedKeys.count else {
+            let config = NetPromoterScoreViewConfig_Digit(lang: CKLanguage(rawValue: getLanguage()) ?? .english)
+            let serviceConfig = NetPromoterScoreServiceConfig(
+                name: name ?? "",
+                appId: appId,
+                language: CKLanguage(rawValue: getLanguage()) ?? .english,
+                viewConfig: config,
+            )
+            return await AnyView(NetPromoterScoreKit().configure(config: serviceConfig))
+        }
+        let key = sortedKeys[selectedIndex]
+        let style = styles[key] as! NetPromoterScoreViewStyle
         var config: NetPromoterScoreViewConfig = NetPromoterScoreViewConfig_Digit(lang: CKLanguage(rawValue: getLanguage()) ?? .english)
         if style != .digit {
             config = NetPromoterScoreViewConfig_Star(lang: CKLanguage(rawValue: getLanguage()) ?? .english)

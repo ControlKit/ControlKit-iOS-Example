@@ -25,10 +25,20 @@ struct ContactSupport_SwiftUI: ControlKitProtocol {
     var language: CKLanguage = CKLanguage(rawValue: getLanguage()) ?? .english
     
     func getView() async -> AnyView {
-        let index = styles.index(styles.startIndex, offsetBy: selectedIndex)
-        let style = styles.values[index]
+        // Use sorted keys to get the correct style in order
+        let sortedKeys = styles.keys.sorted()
+        guard selectedIndex < sortedKeys.count else {
+            print("selectedIndex out of range, using first style")
+            let serviceConfig = ContactSupportServiceConfig(
+                style: .style1,
+                appId: appId
+            )
+            return await AnyView(ContactSupportKit().configure(config: serviceConfig))
+        }
+        let key = sortedKeys[selectedIndex]
+        let style = styles[key] as? ContactSupportViewStyle ?? .style1
         let serviceConfig = ContactSupportServiceConfig(
-            style: style as? ContactSupportViewStyle ?? .style1,
+            style: style,
             appId: appId
         )
         return await AnyView(ContactSupportKit().configure(config: serviceConfig))
