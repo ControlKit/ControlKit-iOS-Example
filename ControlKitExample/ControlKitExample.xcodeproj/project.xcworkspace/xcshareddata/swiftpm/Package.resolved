@@ -1,5 +1,5 @@
 {
-  "originHash" : "ea4a71661e92ae21077f5d829931cede295d7cd5251125910582daa3f9c16f20",
+  "originHash" : "e0d19d636b5a72db7184da0b107285d025366051b02e283aa282308a29446fc3",
   "pins" : [
     {
       "identity" : "agreementkit",
@@ -62,6 +62,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "374967acaf4139c839922a7f82cc6cb9e4c60931"
+      }
+    },
+    {
+      "identity" : "inboxkit-swiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ControlKit/InboxKit-SwiftUI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c56625c3c6a703acf3ce91ff764ee3d09b8cb678"
       }
     },
     {

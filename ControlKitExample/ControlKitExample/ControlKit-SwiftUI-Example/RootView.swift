@@ -17,7 +17,7 @@ struct RootView: View {
     let controlKitItems: [ControlKitProtocol] = [
         ForceUpdate(),
         LaunchAlert(),
-        InboxViewKit(),
+        InboxViewKit_SwiftUI(),
         Agreement_SwiftUI(),
         ContactSupport_SwiftUI(),
         NetPromoterScore_SwiftUI(),

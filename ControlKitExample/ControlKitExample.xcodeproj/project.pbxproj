@@ -13,7 +13,6 @@
 		374CB0542EDFB8AA00476133 /* ControlKitProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D927D32E8C8B58003FEE30 /* ControlKitProtocol.swift */; };
 		374CB0552EDFB8AA00476133 /* ForceUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D927D12E8C8B37003FEE30 /* ForceUpdate.swift */; };
 		374CB0562EDFB8AA00476133 /* LaunchAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D927D52E8C8E58003FEE30 /* LaunchAlert.swift */; };
-		374CB0572EDFB8AA00476133 /* InboxViewKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D927D72E8C8FA7003FEE30 /* InboxViewKit.swift */; };
 		374CB05C2EDFB8AA00476133 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DEFB062E91C0AC0008D3C1 /* UIImage+Extension.swift */; };
 		374CB0642EDFB8AA00476133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F865882AD75C81005C4E04 /* Assets.xcassets */; };
 		374CB0652EDFB8AA00476133 /* ForceUpdateKit in Frameworks */ = {isa = PBXBuildFile; productRef = 37F865B02AD75D77005C4E04 /* ForceUpdateKit */; };
@@ -36,6 +35,8 @@
 		374CB0A72EE2F19800476133 /* NetPromoterScore_SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374CB0A52EE2F19800476133 /* NetPromoterScore_SwiftUI.swift */; };
 		375F2AA02E61C65C00DB0BF4 /* LaunchAlertKit in Frameworks */ = {isa = PBXBuildFile; productRef = 375F2A9F2E61C65C00DB0BF4 /* LaunchAlertKit */; };
 		375F2AA32E64EF0700DB0BF4 /* InboxKit in Frameworks */ = {isa = PBXBuildFile; productRef = 375F2AA22E64EF0700DB0BF4 /* InboxKit */; };
+		3792D36E2EEE18D9002DA490 /* InboxKit-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3792D36D2EEE18D9002DA490 /* InboxKit-SwiftUI */; };
+		3792D3712EEE1907002DA490 /* InboxViewKit_SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3792D36F2EEE1907002DA490 /* InboxViewKit_SwiftUI.swift */; };
 		3799EE352EA66DC0008CB42E /* RootViewController+Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799EE342EA66DAD008CB42E /* RootViewController+Languages.swift */; };
 		3799EE372EA66E42008CB42E /* RootViewController+ChangeAPPID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799EE362EA66E35008CB42E /* RootViewController+ChangeAPPID.swift */; };
 		37B7F7112ADBFC120006154D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B7F70F2ADBFC120006154D /* RootViewController.swift */; };
@@ -90,6 +91,7 @@
 		374CB08B2EE1DF9800476133 /* LanguagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePickerView.swift; sourceTree = "<group>"; };
 		374CB09C2EE233DE00476133 /* Vote_SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vote_SwiftUI.swift; sourceTree = "<group>"; };
 		374CB0A52EE2F19800476133 /* NetPromoterScore_SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetPromoterScore_SwiftUI.swift; sourceTree = "<group>"; };
+		3792D36F2EEE1907002DA490 /* InboxViewKit_SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewKit_SwiftUI.swift; sourceTree = "<group>"; };
 		3799EE342EA66DAD008CB42E /* RootViewController+Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootViewController+Languages.swift"; sourceTree = "<group>"; };
 		3799EE362EA66E35008CB42E /* RootViewController+ChangeAPPID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootViewController+ChangeAPPID.swift"; sourceTree = "<group>"; };
 		37B7F70F2ADBFC120006154D /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				374CB06A2EDFB8AA00476133 /* NetPromoterScoreKit in Frameworks */,
 				374CB06B2EDFB8AA00476133 /* VoteKit in Frameworks */,
 				374CB0A12EE2344800476133 /* VoteKit-SwiftUI in Frameworks */,
+				3792D36E2EEE18D9002DA490 /* InboxKit-SwiftUI in Frameworks */,
 				374CB0692EDFB8AA00476133 /* ContactSupportKit in Frameworks */,
 				37F8B2E22EE73E640016F258 /* ContactSupportKit-SwiftUI in Frameworks */,
 				374CB0672EDFB8AA00476133 /* InboxKit in Frameworks */,
@@ -189,6 +192,7 @@
 				37D927D12E8C8B37003FEE30 /* ForceUpdate.swift */,
 				37D927D52E8C8E58003FEE30 /* LaunchAlert.swift */,
 				37D927D72E8C8FA7003FEE30 /* InboxViewKit.swift */,
+				3792D36F2EEE1907002DA490 /* InboxViewKit_SwiftUI.swift */,
 				37D927D92E8C9086003FEE30 /* AgreementKit.swift */,
 				374CB0862EDFC2EA00476133 /* AgreementKit_SwiftUI.swift */,
 				37D927DB2E8C92D1003FEE30 /* NetPromoterScore.swift */,
@@ -359,6 +363,7 @@
 				374CB0A02EE2344800476133 /* VoteKit-SwiftUI */,
 				374CB0A32EE2F15F00476133 /* NetPromoterScoreKit-SwiftUI */,
 				37F8B2E12EE73E640016F258 /* ContactSupportKit-SwiftUI */,
+				3792D36D2EEE18D9002DA490 /* InboxKit-SwiftUI */,
 			);
 			productName = ControlKitExampleSwiftUI;
 			productReference = 37F865B82EDFB680008C7B55 /* ControlKitExampleSwiftUI.app */;
@@ -411,6 +416,7 @@
 				374CB09F2EE2344800476133 /* XCRemoteSwiftPackageReference "VoteKit-SwiftUI" */,
 				374CB0A22EE2F15F00476133 /* XCRemoteSwiftPackageReference "NetPromoterScoreKit-SwiftUI" */,
 				37F8B2E02EE73E640016F258 /* XCRemoteSwiftPackageReference "ContactSupportKit-SwiftUI" */,
+				3792D36C2EEE18D9002DA490 /* XCRemoteSwiftPackageReference "InboxKit-SwiftUI" */,
 			);
 			productRefGroup = 37F8657A2AD75C7F005C4E04 /* Products */;
 			projectDirPath = "";
@@ -507,10 +513,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				374CB0A72EE2F19800476133 /* NetPromoterScore_SwiftUI.swift in Sources */,
+				3792D3712EEE1907002DA490 /* InboxViewKit_SwiftUI.swift in Sources */,
 				374CB0542EDFB8AA00476133 /* ControlKitProtocol.swift in Sources */,
 				374CB0552EDFB8AA00476133 /* ForceUpdate.swift in Sources */,
 				374CB0562EDFB8AA00476133 /* LaunchAlert.swift in Sources */,
-				374CB0572EDFB8AA00476133 /* InboxViewKit.swift in Sources */,
 				374CB0882EDFC2EA00476133 /* AgreementKit_SwiftUI.swift in Sources */,
 				374CB0772EDFBB2700476133 /* DetailsView.swift in Sources */,
 				374CB0752EDFBAFB00476133 /* ControlKitExampleSwiftUIApp.swift in Sources */,
@@ -958,6 +964,14 @@
 				kind = branch;
 			};
 		};
+		3792D36C2EEE18D9002DA490 /* XCRemoteSwiftPackageReference "InboxKit-SwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ControlKit/InboxKit-SwiftUI.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		37D927C72E8C0822003FEE30 /* XCRemoteSwiftPackageReference "VoteKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ControlKit/VoteKit.git";
@@ -1024,6 +1038,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 375F2AA12E64EF0700DB0BF4 /* XCRemoteSwiftPackageReference "InboxKit" */;
 			productName = InboxKit;
+		};
+		3792D36D2EEE18D9002DA490 /* InboxKit-SwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3792D36C2EEE18D9002DA490 /* XCRemoteSwiftPackageReference "InboxKit-SwiftUI" */;
+			productName = "InboxKit-SwiftUI";
 		};
 		37D927C82E8C0822003FEE30 /* VoteKit */ = {
 			isa = XCSwiftPackageProductDependency;

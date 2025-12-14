@@ -102,7 +102,7 @@ struct DetailsView: View {
                 newItem.selectedIndex = idx
                 mutableItem = newItem
             case "InboxKit":
-                var newItem = InboxViewKit()
+                var newItem = InboxViewKit_SwiftUI()
                 newItem.selectedIndex = idx
                 mutableItem = newItem
             case "AgreementKit":
