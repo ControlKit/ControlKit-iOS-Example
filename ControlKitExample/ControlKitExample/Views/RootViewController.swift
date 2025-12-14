@@ -15,7 +15,7 @@ class RootViewController: UIViewController, UITableViewDelegate, UITableViewData
         ForceUpdate(),
         LaunchAlert(),
         InboxViewKit(),
-        Agreement_SwiftUI(),
+        Agreement(),
         ContactSupport(),
         NetPromoterScore(),
         Vote()

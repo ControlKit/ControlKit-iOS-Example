@@ -7,12 +7,12 @@
 
 import SwiftUI
 import ForceUpdateKit
-import LaunchAlertKit
-import InboxKit
+import LaunchAlertKit_SwiftUI
+import InboxKit_SwiftUI
 import NetPromoterScoreKit_SwiftUI
 import AgreementKit_SwiftUI
 import ContactSupportKit_SwiftUI
-import VoteKit
+import VoteKit_SwiftUI
 import ControlKitBase
 
 struct DetailsView: View {
@@ -98,7 +98,7 @@ struct DetailsView: View {
                 newItem.selectedIndex = idx
                 mutableItem = newItem
             case "LaunchAlertKit":
-                var newItem = LaunchAlert()
+                var newItem = LaunchAlert_SwiftUI()
                 newItem.selectedIndex = idx
                 mutableItem = newItem
             case "InboxKit":

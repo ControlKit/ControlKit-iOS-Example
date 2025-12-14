@@ -1,5 +1,5 @@
 {
-  "originHash" : "e0d19d636b5a72db7184da0b107285d025366051b02e283aa282308a29446fc3",
+  "originHash" : "dd537c5b3c69e120a1f003a194a346f31167e989369bf4b73934e98b33430f2a",
   "pins" : [
     {
       "identity" : "agreementkit",
@@ -43,7 +43,7 @@
       "location" : "https://github.com/ControlKit/ControlKitBase.git",
       "state" : {
         "branch" : "main",
-        "revision" : "88312be492de635debaecf081d9cbb1aa8551788"
+        "revision" : "99f26c423598131d18390662543b8aaefa8cc536"
       }
     },
     {
@@ -79,7 +79,16 @@
       "location" : "https://github.com/ControlKit/LaunchAlertKit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "491fa7dd8a68735db7262fcbbb6afb9c0e6c4087"
+        "revision" : "91fdef9b23a00943fbbd4a49ba62e9877df6c675"
+      }
+    },
+    {
+      "identity" : "launchalertkit-swiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ControlKit/LaunchAlertKit-SwiftUI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "db2422ec2a139b5b1441cb96f37b3f8850e3a0aa"
       }
     },
     {
@@ -106,7 +115,7 @@
       "location" : "https://github.com/ControlKit/VoteKit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "7b86f191774c58815edc85ec570631ce610bcd38"
+        "revision" : "29d5d68c132ee10ca1c9fa1630a524f6da7f74fd"
       }
     },
     {

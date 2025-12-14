@@ -12,7 +12,6 @@
 		370E6F8F2E7EF570005D6B9A /* NetPromoterScoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = 370E6F8E2E7EF570005D6B9A /* NetPromoterScoreKit */; };
 		374CB0542EDFB8AA00476133 /* ControlKitProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D927D32E8C8B58003FEE30 /* ControlKitProtocol.swift */; };
 		374CB0552EDFB8AA00476133 /* ForceUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D927D12E8C8B37003FEE30 /* ForceUpdate.swift */; };
-		374CB0562EDFB8AA00476133 /* LaunchAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D927D52E8C8E58003FEE30 /* LaunchAlert.swift */; };
 		374CB05C2EDFB8AA00476133 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DEFB062E91C0AC0008D3C1 /* UIImage+Extension.swift */; };
 		374CB0642EDFB8AA00476133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F865882AD75C81005C4E04 /* Assets.xcassets */; };
 		374CB0652EDFB8AA00476133 /* ForceUpdateKit in Frameworks */ = {isa = PBXBuildFile; productRef = 37F865B02AD75D77005C4E04 /* ForceUpdateKit */; };
@@ -39,6 +38,8 @@
 		3792D3712EEE1907002DA490 /* InboxViewKit_SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3792D36F2EEE1907002DA490 /* InboxViewKit_SwiftUI.swift */; };
 		3799EE352EA66DC0008CB42E /* RootViewController+Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799EE342EA66DAD008CB42E /* RootViewController+Languages.swift */; };
 		3799EE372EA66E42008CB42E /* RootViewController+ChangeAPPID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799EE362EA66E35008CB42E /* RootViewController+ChangeAPPID.swift */; };
+		37A219712EEED14E0055B599 /* LaunchAlertKit-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 37A219702EEED14E0055B599 /* LaunchAlertKit-SwiftUI */; };
+		37A219742EEED15E0055B599 /* LaunchAlert_SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A219722EEED15E0055B599 /* LaunchAlert_SwiftUI.swift */; };
 		37B7F7112ADBFC120006154D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B7F70F2ADBFC120006154D /* RootViewController.swift */; };
 		37B7F7122ADBFC120006154D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B7F7102ADBFC120006154D /* RootViewController.xib */; };
 		37D927C92E8C0822003FEE30 /* VoteKit in Frameworks */ = {isa = PBXBuildFile; productRef = 37D927C82E8C0822003FEE30 /* VoteKit */; };
@@ -94,6 +95,7 @@
 		3792D36F2EEE1907002DA490 /* InboxViewKit_SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewKit_SwiftUI.swift; sourceTree = "<group>"; };
 		3799EE342EA66DAD008CB42E /* RootViewController+Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootViewController+Languages.swift"; sourceTree = "<group>"; };
 		3799EE362EA66E35008CB42E /* RootViewController+ChangeAPPID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootViewController+ChangeAPPID.swift"; sourceTree = "<group>"; };
+		37A219722EEED15E0055B599 /* LaunchAlert_SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAlert_SwiftUI.swift; sourceTree = "<group>"; };
 		37B7F70F2ADBFC120006154D /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		37B7F7102ADBFC120006154D /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		37D927CB2E8C88BF003FEE30 /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				374CB0652EDFB8AA00476133 /* ForceUpdateKit in Frameworks */,
 				374CB0662EDFB8AA00476133 /* LaunchAlertKit in Frameworks */,
 				374CB06A2EDFB8AA00476133 /* NetPromoterScoreKit in Frameworks */,
+				37A219712EEED14E0055B599 /* LaunchAlertKit-SwiftUI in Frameworks */,
 				374CB06B2EDFB8AA00476133 /* VoteKit in Frameworks */,
 				374CB0A12EE2344800476133 /* VoteKit-SwiftUI in Frameworks */,
 				3792D36E2EEE18D9002DA490 /* InboxKit-SwiftUI in Frameworks */,
@@ -191,6 +194,7 @@
 				37D927D32E8C8B58003FEE30 /* ControlKitProtocol.swift */,
 				37D927D12E8C8B37003FEE30 /* ForceUpdate.swift */,
 				37D927D52E8C8E58003FEE30 /* LaunchAlert.swift */,
+				37A219722EEED15E0055B599 /* LaunchAlert_SwiftUI.swift */,
 				37D927D72E8C8FA7003FEE30 /* InboxViewKit.swift */,
 				3792D36F2EEE1907002DA490 /* InboxViewKit_SwiftUI.swift */,
 				37D927D92E8C9086003FEE30 /* AgreementKit.swift */,
@@ -364,6 +368,7 @@
 				374CB0A32EE2F15F00476133 /* NetPromoterScoreKit-SwiftUI */,
 				37F8B2E12EE73E640016F258 /* ContactSupportKit-SwiftUI */,
 				3792D36D2EEE18D9002DA490 /* InboxKit-SwiftUI */,
+				37A219702EEED14E0055B599 /* LaunchAlertKit-SwiftUI */,
 			);
 			productName = ControlKitExampleSwiftUI;
 			productReference = 37F865B82EDFB680008C7B55 /* ControlKitExampleSwiftUI.app */;
@@ -417,6 +422,7 @@
 				374CB0A22EE2F15F00476133 /* XCRemoteSwiftPackageReference "NetPromoterScoreKit-SwiftUI" */,
 				37F8B2E02EE73E640016F258 /* XCRemoteSwiftPackageReference "ContactSupportKit-SwiftUI" */,
 				3792D36C2EEE18D9002DA490 /* XCRemoteSwiftPackageReference "InboxKit-SwiftUI" */,
+				37A2196F2EEED14E0055B599 /* XCRemoteSwiftPackageReference "LaunchAlertKit-SwiftUI" */,
 			);
 			productRefGroup = 37F8657A2AD75C7F005C4E04 /* Products */;
 			projectDirPath = "";
@@ -513,10 +519,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				374CB0A72EE2F19800476133 /* NetPromoterScore_SwiftUI.swift in Sources */,
+				37A219742EEED15E0055B599 /* LaunchAlert_SwiftUI.swift in Sources */,
 				3792D3712EEE1907002DA490 /* InboxViewKit_SwiftUI.swift in Sources */,
 				374CB0542EDFB8AA00476133 /* ControlKitProtocol.swift in Sources */,
 				374CB0552EDFB8AA00476133 /* ForceUpdate.swift in Sources */,
-				374CB0562EDFB8AA00476133 /* LaunchAlert.swift in Sources */,
 				374CB0882EDFC2EA00476133 /* AgreementKit_SwiftUI.swift in Sources */,
 				374CB0772EDFBB2700476133 /* DetailsView.swift in Sources */,
 				374CB0752EDFBAFB00476133 /* ControlKitExampleSwiftUIApp.swift in Sources */,
@@ -972,6 +978,14 @@
 				kind = branch;
 			};
 		};
+		37A2196F2EEED14E0055B599 /* XCRemoteSwiftPackageReference "LaunchAlertKit-SwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ControlKit/LaunchAlertKit-SwiftUI.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		37D927C72E8C0822003FEE30 /* XCRemoteSwiftPackageReference "VoteKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ControlKit/VoteKit.git";
@@ -1043,6 +1057,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3792D36C2EEE18D9002DA490 /* XCRemoteSwiftPackageReference "InboxKit-SwiftUI" */;
 			productName = "InboxKit-SwiftUI";
+		};
+		37A219702EEED14E0055B599 /* LaunchAlertKit-SwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37A2196F2EEED14E0055B599 /* XCRemoteSwiftPackageReference "LaunchAlertKit-SwiftUI" */;
+			productName = "LaunchAlertKit-SwiftUI";
 		};
 		37D927C82E8C0822003FEE30 /* VoteKit */ = {
 			isa = XCSwiftPackageProductDependency;
