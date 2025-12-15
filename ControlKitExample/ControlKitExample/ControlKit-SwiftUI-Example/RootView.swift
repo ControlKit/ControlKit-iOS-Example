@@ -15,7 +15,7 @@ struct RootView: View {
     @State private var newAppId: String = UserDefaults.standard.string(forKey: "AppId") ?? PlatformId
     
     let controlKitItems: [ControlKitProtocol] = [
-        ForceUpdate(),
+        ForceUpdate_SwiftUI(),
         LaunchAlert_SwiftUI(),
         InboxViewKit_SwiftUI(),
         Agreement_SwiftUI(),

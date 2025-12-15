@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import ForceUpdateKit
+import ForceUpdateKit_SwiftUI
 import LaunchAlertKit_SwiftUI
 import InboxKit_SwiftUI
 import NetPromoterScoreKit_SwiftUI
@@ -94,7 +94,7 @@ struct DetailsView: View {
             // Create a new instance of the appropriate type
             switch item.title {
             case "ForceUpdateKit":
-                var newItem = ForceUpdate()
+                var newItem = ForceUpdate_SwiftUI()
                 newItem.selectedIndex = idx
                 mutableItem = newItem
             case "LaunchAlertKit":

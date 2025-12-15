@@ -1,5 +1,5 @@
 {
-  "originHash" : "dd537c5b3c69e120a1f003a194a346f31167e989369bf4b73934e98b33430f2a",
+  "originHash" : "1807a9f9abaa1538a6b0e055bfe6693b6e25d238366b395795691698edb6dea6",
   "pins" : [
     {
       "identity" : "agreementkit",
@@ -53,6 +53,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "a8a8003c8c25174c60c930e052a06b863041d045"
+      }
+    },
+    {
+      "identity" : "forceupdatekit-swiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ControlKit/ForceUpdateKit-SwiftUI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3d87a33b5e53a3bd2ddae83b0cdb010a37a36981"
       }
     },
     {
